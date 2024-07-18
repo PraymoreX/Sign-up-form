@@ -1,0 +1,59 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+#container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    
+}
+
+#logo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width:50%;
+    height: 100%;
+    
+    
+  }
+
+.all-inputs{
+    display: block;
+    margin: 20px auto;
+    
+}
+
+.input{
+    display:inline;
+
+}
+
+input{
+    display: block;
+}
+
+
+.form{
+    width:70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    
+  }
+
