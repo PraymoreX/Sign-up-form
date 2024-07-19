@@ -51,8 +51,8 @@ form{
 
 input{
     display: block;
-    width: 17em;
-    height: 2.1rem;
+    width: 15rem;
+    height: 1.9rem;
     border: thin .5px black;
     border-radius: 7px;
 }
