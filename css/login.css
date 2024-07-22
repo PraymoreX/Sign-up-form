@@ -76,3 +76,57 @@ input{
     height: 2.5em;
 }
 
+@media only screen and (max-width: 768px) {
+
+    body {
+        background-attachment: scroll; 
+    }
+
+    #main {
+        width: 100%; 
+        height: auto; 
+        margin: 20px auto; 
+        display: flex;
+        align-items: center;
+    }
+
+    .login {
+        width: 90%; 
+        margin: 0; 
+        display: block; 
+        text-align: center; 
+    }
+
+    input {
+        width: 0%; 
+        height: 2.5em; 
+        margin-bottom: 10px; 
+    }
+
+    button {
+        width: 100%; 
+        margin-top: 10px; 
+    }
+
+    h1 {
+        font-size: 2rem; 
+    }
+
+    h2 {
+        font-size: 1.2rem; 
+    }
+
+    h3 {
+        font-size: 1.4rem; 
+        margin-bottom: 20px; 
+    }
+
+    p {
+        margin-top: 0; 
+    }
+
+    .join {
+        display: block; 
+        margin-top: 20px; 
+    }
+}
